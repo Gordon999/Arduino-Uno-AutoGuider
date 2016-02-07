@@ -15,12 +15,12 @@
      const int CW = 0;
      const int CCW = 1;
      
-     const int West = 2;         //pin of the Arduino WEST
-     const int South = 3;        //pin of the Arduino SOUTH
-     const int North = 4;        //pin of the Arduino NORTH
+     const int West = 4;         //pin of the Arduino WEST
+     const int South = 6;        //pin of the Arduino SOUTH
+     const int North = 7;        //pin of the Arduino NORTH
      const int East = 5;         //pin of the Arduino EAST
-     const int MotorStep = 6;    //pin of the Arduino connects to the STEP pin of the EasyDriver board or PWM interface
-     const int MotorDir = 7;     //pin of the Arduino connects to the DIR pin of the EasyDriver boardor PWM interface
+     const int MotorStep = 3;    //pin of the Arduino connects to the STEP pin of the EasyDriver board or PWM interface
+     const int MotorDir = 2;     //pin of the Arduino connects to the DIR pin of the EasyDriver boardor PWM interface
      
  
   // Scale will provide a scaling factor for each direction, 100 will mean a #:Mgn1000# will produce a 1 second output, 150 a 1.5 second pulse
